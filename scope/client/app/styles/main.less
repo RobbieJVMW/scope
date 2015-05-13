@@ -38,16 +38,17 @@ body {
 
 #logo {
     margin: 0 64px 0 64px;
-    height: 64px;
-    width: 64px;
+    height: 60px;
+    width: 172px;
     float: left;
+    opacity: 0.8;
+    position: relative;
 
-    .logo {
-        path {
-            stroke-width: 2px;
-            stroke: @text-secondary-color;
-            fill: none;
-        }
+    .scope {
+        position: absolute;
+        top: 19px;
+        left: 163px;
+        font-size: 38px;
     }
 
 }
@@ -68,6 +69,7 @@ body {
     float: left;
     position: relative;
     margin-top: 4px;
+    margin-left: 120px;
 
     &-icon {
         font-size: 12px;
@@ -103,7 +105,7 @@ body {
 
         &-label {
             color: @text-secondary-color;
-            font-size: 16px;
+            font-size: 18px;
             text-transform: uppercase;
         }
 

@@ -16,6 +16,7 @@ var doLayout = function(nodes, edges, width, height, scale, margins) {
     // configure node margins
 
     g.setGraph({
+        rankdir: 'BT',
         nodesep: scale(2.5),
         ranksep: scale(2.5)
     });
